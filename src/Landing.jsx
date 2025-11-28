@@ -410,13 +410,15 @@ const TallerReparaIphoneLanding = () => {
 
           {/* Imagen (derecha en pantallas grandes) */}
          {/* Imagen (izquierda en móvil, centrada en sm, derecha en lg) */}
-<div className="w-full flex justify-center sm:justify-start items-start">
-  <img
-    src={Ricardo}
-    alt="Ricardo Hernández Reyes"
-    className="w-75 max-w-xs sm:max-w-sm lg:max-w-sm rounded-2xl object-cover mx-auto sm:mx-0"
-  />
-</div>
+<div className=" w-full flex justify-center sm:justify-start items-start">
+    <img
+      src={Ricardo}
+      alt="Ricardo Hernández Reyes"
+      // ancho controlado y máxima altura para móviles
+      className="w-full max-w-xs sm:max-w-sm lg:max-w-sm rounded-2xl object-cover mx-auto sm:mx-0"
+      style={{ maxHeight: 420 }}
+    />
+  </div>
 
         </div>
 
