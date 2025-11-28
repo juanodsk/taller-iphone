@@ -177,7 +177,7 @@ const TallerReparaIphoneLanding = () => {
             </button>
 
             <p className="mt-2 text-[11px] text-slate-500">
-              Oferta válida hasta el domingo o hasta agotar cupos.
+              Oferta válida hasta el 2 de diciembre o hasta agotar cupos.
             </p>
           </aside>
         </section>
