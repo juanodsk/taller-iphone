@@ -409,13 +409,15 @@ const TallerReparaIphoneLanding = () => {
           </div>
 
           {/* Imagen (derecha en pantallas grandes) */}
-          <div className="flex justify-center  items-center ">
-            <img
-              src={Ricardo}
-              alt="Ricardo Hernández Reyes"
-              className="justify-start sm:justify-center items-center w-75 max-w-xs lg:max-w-sm rounded-2xl object-cover"
-            />
-          </div>
+         {/* Imagen (izquierda en móvil, centrada en sm, derecha en lg) */}
+<div className="w-full flex justify-center sm:justify-start items-center">
+  <img
+    src={Ricardo}
+    alt="Ricardo Hernández Reyes"
+    className="w-75 max-w-xs sm:max-w-sm lg:max-w-sm rounded-2xl object-cover"
+  />
+</div>
+
         </div>
 
           <div className="relative mt-15">
