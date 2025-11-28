@@ -1,4 +1,5 @@
 import React from "react";
+import Ricardo from "./img/ricardo.png"
 
 const TallerReparaIphoneLanding = () => {
   const handleWhatsAppClick = () => {
@@ -384,30 +385,45 @@ const TallerReparaIphoneLanding = () => {
         </section>
 
         {/* Instructor */}
-        <section className="mb-16 grid gap-8 lg:grid-cols-[minmax(0,1.1fr)_minmax(0,1fr)] lg:items-center">
+       {/* Instructor */}
+      <section className="mb-16 px-15">
+        <div className="grid gap-8 lg:grid-cols-2 lg:items-center">
+          {/* Texto (izquierda en pantallas grandes) */}
           <div>
             <h2 className="text-sm font-semibold uppercase tracking-[0.2em] text-slate-400">
               ¿Quién dicta el taller?
             </h2>
+
             <p className="mt-3 text-lg font-semibold text-slate-50">
               Ricardo Hernández Reyes
             </p>
+
             <p className="mt-2 max-w-xl text-sm text-slate-300">
               Técnico experto en dispositivos Apple, con más de 5 años de
               experiencia en reparación especializada. Ha capacitado a decenas
               de técnicos y ha sido entrenado por instructores de talla
               internacional.
             </p>
+
             <p className="mt-3 max-w-xl text-sm text-slate-300">
               Todo lo que enseña está probado en su laboratorio profesional{" "}
               <span className="font-semibold">GOTFIX®</span>. No verás teoría
               suelta: verás exactamente lo que aplica en el día a día con
               dispositivos reales.
             </p>
-            <img src="" alt="" />
           </div>
 
-          <div className="relative">
+          {/* Imagen (derecha en pantallas grandes) */}
+          <div className="flex justify-center  items-center">
+            <img
+              src={Ricardo}
+              alt="Ricardo Hernández Reyes"
+              className="justify-start items-center w-75 max-w-xs lg:max-w-sm rounded-2xl object-cover"
+            />
+          </div>
+        </div>
+
+          <div className="relative mt-15">
             <div className="absolute -inset-0.5 rounded-3xl bg-[conic-gradient(from_180deg_at_50%_0%,#febd58_0deg,#0f172a_120deg,#020617_240deg,#febd58_360deg)] opacity-40 blur-xl" />
             <div className="relative rounded-3xl border border-slate-800 bg-slate-950/80 p-6">
               <p className="text-xs font-semibold uppercase tracking-[0.25em] text-slate-500">
