@@ -1,5 +1,5 @@
 import React from "react";
-import Ricardo from "./img/ricardo.png"
+import Ricardo from "./img/1.png"
 
 const TallerReparaIphoneLanding = () => {
   const handleWhatsAppClick = () => {
@@ -8,12 +8,12 @@ const TallerReparaIphoneLanding = () => {
     const text = encodeURIComponent(
       "Hola, quiero más información sobre el Taller Intensivo Online: Repara iPhone Desde Cero."
     );
-    window.open(`https://wa.me/${phone}?text=${text}`, "_blank");
+    window.open(`https://wa.link/p29kfw`, "_blank");
   };
 
   const handleCheckoutClick = () => {
     // Reemplazar con la URL real del checkout
-    window.open("https://tu-checkout.com", "_blank");
+    window.open("https://wa.link/p29kfw", "_blank");
   };
 
   return (
@@ -102,12 +102,7 @@ const TallerReparaIphoneLanding = () => {
               >
                 Quiero inscribirme
               </button>
-              <button
-                onClick={handleWhatsAppClick}
-                className="w-full rounded-full border border-slate-600 bg-slate-900/80 px-6 py-3 text-xs font-medium uppercase tracking-[0.2em] text-slate-200 transition hover:border-[#febd58] hover:text-[#febd58] sm:w-auto"
-              >
-                Hablar por WhatsApp
-              </button>
+             
             </div>
 
             <p className="mt-3 text-xs text-slate-400">
@@ -474,12 +469,7 @@ const TallerReparaIphoneLanding = () => {
             >
               Quiero inscribirme ahora
             </button>
-            <button
-              onClick={handleWhatsAppClick}
-              className="w-full max-w-xs rounded-full border border-slate-700 bg-slate-900/80 px-6 py-3 text-[11px] font-medium uppercase tracking-[0.2em] text-slate-200 transition hover:border-[#febd58] hover:text-[#febd58]"
-            >
-              Tengo una pregunta antes de pagar
-            </button>
+            
           </div>
         </section>
 
