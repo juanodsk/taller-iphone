@@ -382,43 +382,42 @@ const TallerReparaIphoneLanding = () => {
         {/* Instructor */}
        {/* Instructor */}
       <section className="mb-16 px-15">
-        <div className="grid gap-8 lg:grid-cols-2 lg:items-center">
-          {/* Texto (izquierda en pantallas grandes) */}
-          <div>
-            <h2 className="text-sm font-semibold uppercase tracking-[0.2em] text-slate-400">
-              ¿Quién dicta el taller?
-            </h2>
+        <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-2 lg:items-center">
+ 
 
-            <p className="mt-3 text-lg font-semibold text-slate-50">
-              Ricardo Hernández Reyes
-            </p>
+  {/* Texto */}
+  <div className="order-1">
+    <h2 className="text-sm font-semibold uppercase tracking-[0.2em] text-slate-400">
+      ¿Quién dicta el taller?
+    </h2>
 
-            <p className="mt-2 max-w-xl text-sm text-slate-300">
-              Técnico experto en dispositivos Apple, con más de 5 años de
-              experiencia en reparación especializada. Ha capacitado a decenas
-              de técnicos y ha sido entrenado por instructores de talla
-              internacional.
-            </p>
+    <p className="mt-3 text-lg font-semibold text-slate-50">
+      Ricardo Hernández Reyes
+    </p>
 
-            <p className="mt-3 max-w-xl text-sm text-slate-300">
-              Todo lo que enseña está probado en su laboratorio profesional{" "}
-              <span className="font-semibold">GOTFIX®</span>. No verás teoría
-              suelta: verás exactamente lo que aplica en el día a día con
-              dispositivos reales.
-            </p>
-          </div>
+    <p className="mt-2 max-w-xl text-sm text-slate-300">
+      Técnico experto en dispositivos Apple, con más de 5 años de
+      experiencia en reparación especializada. Ha capacitado a decenas
+      de técnicos y ha sido entrenado por instructores de talla
+      internacional.
+    </p>
 
-          {/* Imagen (derecha en pantallas grandes) */}
-         {/* Imagen (izquierda en móvil, centrada en sm, derecha en lg) */}
-<div className="w-full flex justify-center sm:justify-start items-center">
-  <img
-    src={Ricardo}
-    alt="Ricardo Hernández Reyes"
-    className="w-75 max-w-xs sm:max-w-sm lg:max-w-sm rounded-2xl object-cover"
-  />
+    <p className="mt-3 max-w-xl text-sm text-slate-300">
+      Todo lo que enseña está probado en su laboratorio profesional{" "}
+      <span className="font-semibold">GOTFIX®</span>. No verás teoría
+      suelta: verás exactamente lo que aplica en el día a día con
+      dispositivos reales.
+    </p>
+  </div>
+   <div className="order-2 flex justify-center items-center sm:justify-start sm:items-start w-full">
+    <img
+      src={Ricardo}
+      alt="Ricardo Hernández Reyes"
+      className="w-75 max-w-xs sm:max-w-sm lg:max-w-sm rounded-2xl object-cover mx-auto sm:mx-0"
+    />
+  </div>
 </div>
 
-        </div>
 
           <div className="relative mt-15">
             <div className="absolute -inset-0.5 rounded-3xl bg-[conic-gradient(from_180deg_at_50%_0%,#febd58_0deg,#0f172a_120deg,#020617_240deg,#febd58_360deg)] opacity-40 blur-xl" />
