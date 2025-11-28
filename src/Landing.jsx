@@ -409,11 +409,11 @@ const TallerReparaIphoneLanding = () => {
           </div>
 
           {/* Imagen (derecha en pantallas grandes) */}
-          <div className="flex justify-center  items-center sm:justify-center">
+          <div className="flex justify-center  items-center ">
             <img
               src={Ricardo}
               alt="Ricardo Hernández Reyes"
-              className="justify-start items-center w-75 max-w-xs lg:max-w-sm rounded-2xl object-cover"
+              className="justify-start sm:justify-center items-center w-75 max-w-xs lg:max-w-sm rounded-2xl object-cover"
             />
           </div>
         </div>
