@@ -185,7 +185,7 @@ const TallerReparaIphoneLanding = () => {
         {/* ¿Para quién es? */}
         <section className="mb-16 grid gap-8 lg:grid-cols-2">
           <div className="rounded-3xl border border-slate-800 bg-slate-900/60 p-6">
-            <h2 className="text-sm font-semibold uppercase tracking-[0.2em] text-slate-400">
+            <h2 className="text-md font-semibold uppercase tracking-[0.2em] text-slate-400">
               ¿Para quién es este taller?
             </h2>
             <p className="mt-3 text-sm text-slate-200">
@@ -230,7 +230,7 @@ const TallerReparaIphoneLanding = () => {
           </div>
 
           <div className="rounded-3xl border border-slate-800 bg-slate-950/60 p-6">
-            <h3 className="text-sm font-semibold uppercase tracking-[0.2em] text-slate-400">
+            <h3 className="text-md font-semibold uppercase tracking-[0.2em] text-slate-400">
               ¿Para quién NO es?
             </h3>
             <p className="mt-3 text-sm text-slate-200">
@@ -264,10 +264,10 @@ const TallerReparaIphoneLanding = () => {
         <section className="mb-16">
           <div className="mb-6 flex flex-col gap-3 sm:flex-row sm:items-end sm:justify-between">
             <div>
-              <h2 className="text-sm font-semibold uppercase tracking-[0.2em] text-slate-400">
+              <h2 className="md:text-2xl font-semibold uppercase tracking-[0.2em] text-slate-400">
                 ¿Qué vas a aprender?
               </h2>
-              <p className="mt-2 max-w-xl text-sm text-slate-200">
+              <p className="mt-2 max-w-xl text-md text-slate-200">
                 En 4 días intensivos vas a construir una base sólida para
                 reparar iPhone con seguridad, confianza y criterio técnico.
               </p>
