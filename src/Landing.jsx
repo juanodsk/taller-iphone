@@ -1,5 +1,4 @@
 import React from "react";
-import ricard from "./img/ricardo.HEIC";
 
 const TallerReparaIphoneLanding = () => {
   const handleWhatsAppClick = () => {
